@@ -16,6 +16,7 @@
     "url": "git://github.com/typesettin/periodicjs.ext.scheduled_content.git"
   },
   "scripts": {
+    "test": "mocha -R spec --recursive",
     "postinstall": "node install.js",
     "postuninstall": "node uninstall.js"
   },
