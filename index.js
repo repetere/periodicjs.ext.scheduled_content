@@ -69,7 +69,7 @@ var publishScheduledItemCollectionss = function () {
             start: true
             // timeZone: "America/Los_Angeles"
         });
-        logger.silly(job);
+        // logger.silly(job);
         // job.start();
     }
     catch (e) {
