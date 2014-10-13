@@ -1,0 +1,7 @@
+{
+	"development":{
+		"settings":{
+			"unpublished_content_interval":"1 * * * * *"
+		}
+	}
+}
