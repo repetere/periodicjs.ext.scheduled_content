@@ -8,6 +8,7 @@ var async = require('async'),
     path = require('path'),
     appSettings,
     mongoose,
+    Compilation,
     Collection,
     Item, //Item
     scheduled_itemid_array = [],
@@ -66,6 +67,9 @@ var publishScheduledItemCollectionss = function () {
                         },
                         scheduledCollections: function (callback) {
                             updateScheduledContent(Collection, callback);
+                        },
+                        scheduledCompilations: function (callback) {
+                            updateScheduledContent(Compilation, callback);
                         }
                     },
                     function (err, results) {
@@ -111,6 +115,7 @@ module.exports = function (periodic) {
     appSettings = periodic.settings;
     Item = mongoose.model('Item');
     Collection = mongoose.model('Collection');
+    Compilation = mongoose.model('Compilation');
     
     var scheduled_content_settingsFile = path.resolve(CoreExtension.getconfigdir({
         extname: 'periodicjs.ext.scheduled_content'
