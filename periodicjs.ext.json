@@ -1,5 +1,4 @@
 {
-	"name": "periodicjs.ext.scheduled_content",
-	"periodicCompatibility":"2.1.5",
+	"periodicCompatibility":"3.0.0",
 	"periodicDependencies":[]
 }
