@@ -139,4 +139,6 @@ module.exports = function (periodic) {
         }
         publishScheduledItemCollectionss();
     });
+
+    return periodic;
 };

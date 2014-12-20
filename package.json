@@ -1,7 +1,7 @@
 {
   "name": "periodicjs.ext.scheduled_content",
   "description": "A periodic extension to publish scheduled content in the future",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.x"
@@ -24,7 +24,7 @@
     "async": "0.9.0",
     "fs-extra": "0.12.0",
     "cron": "1.0.5",
-    "periodicjs.core.extensions": "~3.1.1"
+    "periodicjs.core.extensions": "~4.0.0"
   },
   "devDependencies": {
     "browserify": "~6.3.2",
