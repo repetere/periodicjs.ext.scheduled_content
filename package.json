@@ -1,7 +1,7 @@
 {
   "name": "periodicjs.ext.scheduled_content",
   "description": "A periodic extension to publish scheduled content in the future",
-  "version": "4.0.0",
+  "version": "6.0.0",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.x"
