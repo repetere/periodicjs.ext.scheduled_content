@@ -7,7 +7,7 @@ var Extensions = require('periodicjs.core.extensions'),
 
 ExtensionCore.install({
 		// enabled:false,
-		movebefore:'periodicjs.ext.admin'
+		movebefore:'periodicjs.ext.asyncadmin'
 	},
 	function(err,status){
 		if(err){
