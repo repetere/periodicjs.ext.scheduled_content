@@ -2,8 +2,9 @@
 
 var async = require('async'),
     CronJob = require('cron').CronJob,
-    Extensions = require('periodicjs.core.extensions'),
-    CoreExtension = new Extensions({}),
+    // Extensions = require('periodicjs.core.extensions'),
+    // CoreExtension = new Extensions({}),
+    CoreExtension,
     fs = require('fs-extra'),
     path = require('path'),
     appSettings,
@@ -116,6 +117,7 @@ module.exports = function (periodic) {
     Item = mongoose.model('Item');
     Collection = mongoose.model('Collection');
     Compilation = mongoose.model('Compilation');
+    CoreExtension = periodic.core.extension;
     
     var scheduled_content_settingsFile = path.resolve(CoreExtension.getconfigdir({
         extname: 'periodicjs.ext.scheduled_content'

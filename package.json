@@ -1,10 +1,10 @@
 {
   "name": "periodicjs.ext.scheduled_content",
   "description": "A periodic extension to publish scheduled content in the future",
-  "version": "6.0.0",
+  "version": "5.9.0",
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.x"
+    "node": ">=0.12.x"
   },
   "author": {
     "name": "Yaw Joseph Etse",
@@ -24,7 +24,6 @@
     "async": "^1.2.1",
     "cron": "^1.0.9",
     "fs-extra": "^0.20.1",
-    "periodicjs.core.extensions": "~4.0.0"
   },
   "devDependencies": {
     "browserify": "^10.2.4",
