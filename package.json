@@ -1,30 +1,56 @@
 {
-  "name": "periodicjs.ext.scheduled_content",
-  "description": "A periodic extension to publish scheduled content in the future",
-  "version": "5.9.0",
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.12.x"
-  },
-  "author": {
-    "name": "Yaw Joseph Etse",
+  "_args": [
+    [
+      "periodicjs.ext.scheduled_content@5.9.0",
+      "/Users/yawetse/Developer/test/redtest/node_modules/periodicjs"
+    ]
+  ],
+  "_from": "periodicjs.ext.scheduled_content@5.9.0",
+  "_id": "periodicjs.ext.scheduled_content@5.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/periodicjs.ext.scheduled_content",
+  "_nodeVersion": "0.10.31",
+  "_npmUser": {
     "email": "yaw.etse@gmail.com",
+    "name": "yawetse"
+  },
+  "_npmVersion": "2.9.0",
+  "_phantomChildren": {
+    "graceful-fs": "3.0.8",
+    "jsonfile": "2.2.3",
+    "rimraf": "2.5.0"
+  },
+  "_requested": {
+    "name": "periodicjs.ext.scheduled_content",
+    "raw": "periodicjs.ext.scheduled_content@5.9.0",
+    "rawSpec": "5.9.0",
+    "scope": null,
+    "spec": "5.9.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/periodicjs.ext.scheduled_content/-/periodicjs.ext.scheduled_content-5.9.0.tgz",
+  "_shasum": "701bd3be2626c023ad282a036ea0f0c95cb8cabc",
+  "_shrinkwrap": null,
+  "_spec": "periodicjs.ext.scheduled_content@5.9.0",
+  "_where": "/Users/yawetse/Developer/test/redtest/node_modules/periodicjs",
+  "author": {
+    "email": "yaw.etse@gmail.com",
+    "name": "Yaw Joseph Etse",
     "url": "http://about.me/yawjosephetse"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/typesettin/periodicjs.ext.scheduled_content.git"
-  },
-  "scripts": {
-    "test": "mocha -R spec --recursive",
-    "postinstall": "node install.js",
-    "postuninstall": "node uninstall.js"
+  "bugs": {
+    "url": "https://github.com/typesettin/periodicjs.ext.scheduled_content/issues"
   },
   "dependencies": {
     "async": "^1.2.1",
     "cron": "^1.0.9",
     "fs-extra": "^0.20.1"
   },
+  "description": "A periodic extension to publish scheduled content in the future",
   "devDependencies": {
     "browserify": "^10.2.4",
     "chai": "^3.0.0",
@@ -45,9 +71,39 @@
     "uglify-js": "^2.4.15",
     "uglifyify": "^3.0.1"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "701bd3be2626c023ad282a036ea0f0c95cb8cabc",
+    "tarball": "http://registry.npmjs.org/periodicjs.ext.scheduled_content/-/periodicjs.ext.scheduled_content-5.9.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.12.x"
+  },
+  "gitHead": "f15cbbf1cc8c68448093db5e2868bd823c865362",
+  "homepage": "https://github.com/typesettin/periodicjs.ext.scheduled_content#readme",
   "keywords": [
-    "periodicjs",
     "cron",
+    "periodicjs",
     "scheduled content"
-  ]
+  ],
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "yawetse",
+      "email": "yaw.etse@gmail.com"
+    }
+  ],
+  "name": "periodicjs.ext.scheduled_content",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/typesettin/periodicjs.ext.scheduled_content.git"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "postuninstall": "node uninstall.js",
+    "test": "mocha -R spec --recursive"
+  },
+  "version": "6.0.0"
 }

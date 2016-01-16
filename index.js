@@ -133,10 +133,10 @@ module.exports = function (periodic) {
             // console.log('settingJSON', settingJSON);
             if (settingJSON[appenvironment]) {
                 scheduledExtSettings = settingJSON[appenvironment];
-                unpublished_content_interval = (scheduledExtSettings.settings.unpublished_content_interval)? scheduledExtSettings.settings.unpublished_content_interval : unpublished_content_interval;                 
+                unpublished_content_interval = (scheduledExtSettings && scheduledExtSettings.settings.unpublished_content_interval)? scheduledExtSettings.settings.unpublished_content_interval : unpublished_content_interval;                
             }
             else {
-                throw new Error('Invalid login configuration, no transport for env: ' + appenvironment);
+                periodic.logger.warn('Invalid scheduled content config for env: ' + appenvironment);
             }
         }
         publishScheduledItemCollectionss();
